@@ -1,0 +1,59 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+.lighting-container {
+  background: #000;
+  display: grid;
+  place-items: center;
+  height: 100vh;
+}
+
+.light-background {
+  background: #fff;
+}
+
+.on {
+  color: #000;
+  text-transform: uppercase;
+  position: absolute;
+  font-size: 3rem;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  visibility: hidden;
+  z-index: 1;
+}
+
+.on-visible {
+  visibility: visible;
+}
+
+.off {
+  color: #fff;
+  text-transform: uppercase;
+  position: absolute;
+  font-size: 3rem;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  visibility: visible;
+}
+
+.btn-toggle {
+  padding: 8px 50px;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: rgb(24, 24, 24);
+  border: none;
+  cursor: pointer;
+  background: rgb(255, 255, 255);
+  border-radius: 5px;
+}
+
+.light-toggle {
+  color: rgb(255, 255, 255);
+  background: rgb(0, 0, 0);
+}

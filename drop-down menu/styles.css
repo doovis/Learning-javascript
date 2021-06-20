@@ -1,0 +1,110 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.red {
+    background: rgb(233, 115, 115);
+}
+
+.green {
+    background: rgb(129, 233, 115);
+}
+
+.blue {
+    background: rgb(115, 123, 233);
+}
+
+.reset {
+    background: rgb(255, 255, 255);
+}
+
+.background {
+    width: 100%;
+    height: 100vh;
+}
+
+.container {
+    position: absolute;
+    top: 100px;
+    left: 50%;
+    transform: translate(-50%, 100px);
+    background: rgb(255, 255, 255);
+    transition: all .3s;
+}
+
+h2 {
+    padding: 0;
+    margin: 0;
+    padding: 10px;
+    cursor: pointer;
+    border-bottom: 1px solid #000;
+    transition: all .3s;
+}
+
+.menu-container {
+    width: 250px;
+    height: 47px;
+    border: 2px solid #000;
+    transition: all .3s ease-in-out;
+    overflow: hidden;
+}
+
+.expand-menu {
+    height: 200px;
+}
+
+.expansion p {
+    margin: 0;
+    padding: 10px;
+    transition: all .3s;
+}
+
+
+
+
+/* Hovers */
+
+.container:hover {
+    position: absolute;
+    top: 100px;
+    left: 49.6%;
+    transform: translate(-49.6%, 98px);
+}
+
+.menu-container:hover {
+    box-shadow: 4px 4px;
+}
+
+h2:hover {
+    position: relative;
+    background: rgb(36, 36, 36);
+    color: #fff;
+    padding-left: 20px;
+}
+
+.first-child:hover {
+    background: rgb(194, 235, 248);
+    padding-left: 20px;
+    cursor: pointer;
+}
+
+.second-child:hover {
+    background: rgb(194, 235, 248);
+    padding-left: 20px;
+    cursor: pointer;
+}
+
+.third-child:hover {
+    background: rgb(194, 235, 248);
+    padding-left: 20px;
+    cursor: pointer;
+}
+
+.fourth-child:hover {
+    background: rgb(194, 235, 248);
+    padding-left: 20px;
+    cursor: pointer;
+}
